@@ -1,0 +1,360 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio</title>
+    <link rel="icon" href="img/24.gif" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+<!-- Navbar -->
+    <style>
+       navbar{
+        background-color:rgba(255,255,255,1);
+        position:relative;
+        z-index:1;
+       
+      }
+      .nav-link{
+        text-transform:uppercase;
+        margin-right:30px;
+        color:#dbd5d5;
+        font-family: 'Fjalla One', sans-serif;
+      }
+
+      .navbar-brand{
+        font-family: 'Fjalla One', sans-serif;
+        color:#dbd5d5;
+      }
+      
+    </style>
+    
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top" id="navbar" >
+      <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Sendy Saputra</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portofolio.html">Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="hubungi_saya.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- Navbar -->    
+    
+<!-- jumbotron -->
+  <style>
+    .jumbotron{
+      background-image: url(img/3.jpg);
+      background-size:cover;
+      color:white;
+      height:640px;
+      text-align:center;
+      position:relative;
+    }
+
+    .jumbotron::after{
+      content:"";
+      display:block;
+      width:100%;
+      height:100%;
+      background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+      position:absolute;
+      bottom:0;
+    }
+
+    .jumbotron h1{
+      color:white;
+      margin-top:8px;
+      font-family: 'Anton', sans-serif;
+      padding-right:2rem;
+      padding-left:1rem;
+      margin-bottom:30px;
+      font-size:32px;
+    }
+
+    .jumbotron .container{
+      position:relative;
+      z-index:1;
+    }
+    .btn{
+        font-family: 'Anton', sans-serif;
+      }
+    
+    @media (min-width: 992px) {
+       navbar{
+        background-color:rgba(92, 141, 135, 0);
+        position:relative;
+        z-index:1;
+       
+       }
+      .nav-link{
+        text-transform:uppercase;
+        margin-right:3px;
+        color:#dbd5d5;
+        font-family: 'Fjalla One', sans-serif;
+        
+      }
+
+      .navbar-brand{
+        color:#dbd5d5;
+        font-family: 'Fjalla One', sans-serif;
+        
+      }
+
+      .nav-link:hover::after{
+        content:'';
+        display:block;
+        border-bottom:3px solid rgb(55, 255, 255);
+        width:50%;
+        margin:auto;
+        padding-bottom:5px;
+        margin-bottom:-8px;
+      }
+      .jumbotron{
+      background-image: url(img/3.jpg);
+      background-size:cover;
+      color:black;
+      height:750px;
+      margin-top:-75px;
+      text-align:center;
+      position:relative;
+      }
+
+      .jumbotron h1{
+      color:white;
+      text-align:center;
+      margin-top:50px;
+      font-family: 'Anton', sans-serif;
+      margin-bottom:30px;
+      font-size:62px;
+      }
+
+      .jumbotron .container{
+      position:relative;
+      z-index:1;
+      }
+
+      .jumbotron::after{
+      content:"";
+      display:block;
+      width:100%;
+      height:100%;
+      background-image: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0));
+      position:absolute;
+      bottom:0;
+      }
+
+      .btn{
+        font-family: 'Anton', sans-serif;
+      }
+    }
+  </style>
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <br><br><br><br><br><br><br><br><br><br><br><br><h1 class="display-4">PORTOFOLIO</h1>
+  </div>
+</div>
+
+<!--akhir jumbotron -->
+    
+<!-- isi --> 
+    <style>
+      h5{
+        color:black;
+        font-family: 'Fjalla One', sans-serif
+      }
+
+      .col-form-label{
+        color:black;
+        font-family: 'Poppins', sans-serif;
+      }
+      .inner {
+        overflow: hidden;
+      }
+      
+      .inner img {
+        transition: all 1.5s ease;
+      }
+      
+      .inner:hover img {
+        transform: scale(1.5);
+      }
+
+      .card-text{
+        font-family: 'Poppins', sans-serif;
+      }
+
+       h2{
+        color:black;
+        font-family: 'Fjalla One', sans-serif;
+       }
+    </style>
+   <section id="About Me">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00000" fill-opacity="1" d="M0,64L480,96L960,64L1440,128L1440,0L960,0L480,0L0,0Z"></path></svg>
+       <div class="profile">
+ <div class="container">
+  <div class="my-5 container col-lg-6 justify-content-center ">
+   <div class="card mb-3 bg-light " style="max-width: 540px;">
+    <div class="row g-0">
+     <div class="col-md-8">
+       <div class="card-body">
+        <h5 class="card-title fs-1">BIODATA</h5>
+        <div class="mb-3 row fw-bold">
+    <label for="staticEmail" class="col-sm-8 col-form-label">Nama :</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Sendy Saputra">
+    </div>
+  </div>
+  <div class="col mb-3 fw-bold">
+    <label for="staticEmail" class="col-sm-8 col-form-label">Tempat, Tanggal Lahir :</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Prabumulih,21 September 2003">
+    </div>
+  </div>
+         <div class="mb-3 row fw-bold">
+    <label for="staticEmail" class="col-sm-3 col-form-label">Agama:</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Islam">
+    </div>
+  </div>
+         <div class="mb-3 row fw-bold">
+    <label for="staticEmail" class="col-sm-3 col-form-label">Hobi :</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Bermain game">
+    </div>
+  </div>
+         <div class="mb-3 row fw-bold">
+    <label for="staticEmail" class="col-sm-6 col-form-label">Asal Kota :</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Prabumulih">
+    </div>
+  </div><div class="mb-3 row fw-bold">
+    <label for="staticEmail" class="col-sm-3 col-form-label">NIM :</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="09031382126159">
+    </div>
+  </div><div class="mb-3 row fw-bold">
+    <label for="staticEmail" class="col-sm-3 col-form-label">Kelas :</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="SI BILINGUAL 4A">
+    </div>
+  </div>
+    </section>
+    <section id="Education">
+        <svg ></svg>
+        <div class="container">
+            <div class="row text-center mb-5">
+                <div class="col">
+                    <h2>Education</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="card" >
+                      <div class="inner">
+                        <img src="img/yps1.jpg" class="card-img-top" alt="yps1">
+                      </div>
+                        <div class="card-body">
+                          <p class="card-text">SD 1 YPS Prabumulih</p>
+                          <p class="card-text">(Lulus Tahun 2015)</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card" >
+                      <div class="inner">
+                        <img src="img/IMG_4807.jpg" class="card-img-top" alt="spensa">
+                      </div>
+                        <div class="card-body">
+                            <p class="card-text">SMP Negeri 1 Prabumulih</p>
+                            <p class="card-text">(Lulus Tahun 2018)</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card" >
+                      <div class="inner">
+                        <img src="img/Smanti.jpg" class="card-img-top" alt="smanti">
+                      </div>
+                        <div class="card-body">
+                            <p class="card-text">SMA Negeri 3 Prabumulih</p>
+                            <p class="card-text">(Lulus Tahun 2021)</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="card" >
+                      <div class="inner">
+                        <img src="img/gerbangunsri.jpg" class="card-img-top" alt="unsri">
+                      </div>
+                        <div class="card-body">
+                            <p class="card-text">Universitas Sriwijaya</p>
+                            <p class="card-text">(Semester 4)</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <svg ></svg>
+    </section>     
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000" fill-opacity="1" d="M0,64L480,96L960,64L1440,128L1440,320L960,320L480,320L0,320Z"></path></svg>
+<!-- akhir isi --> 
+    
+<!--footer -->
+    <style>
+      .footer{
+        position:relative;
+        z-index:1;
+      }
+
+      footer::after{
+      content:"";
+      display:block;
+      width:100%;
+      height:120%;
+      background-image: linear-gradient(to bottom,rgba(0,0,0,1),rgba(0,0,0,0));
+      position:absolute;
+      bottom:0;
+      }
+
+      footer p{
+        color:black;
+      }
+    </style>
+    <div class=" footer">
+  <footer class="py-4 my-3">
+    <p class="text-center  border-bottom">&copy; 2023 Sendy, Inc</p>
+  </footer>
+</div>
+<!--akhir footer -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
